@@ -1,0 +1,50 @@
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+  --vp-home-hero-image-filter: blur(80px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(72px);
+  }
+}
+
+.VPImage {
+  /* box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5); */
+  box-shadow:
+    0 5px 15px rgba(255, 0, 0, 0.3),
+    0 10px 20px rgba(255, 85, 0, 0.3),
+    0 15px 30px rgba(255, 170, 0, 0.3),
+    0 20px 40px rgba(255, 255, 0, 0.3);
+}
+
+.image-src {
+  border-radius: 50%;
+}
+
+.el-tag {
+  margin: 2px;
+}
+
+.el-card__footer {
+  text-align: right;
+  border-top: none;
+  color: #A6A6A6;
+}
+
+.el-card__body {
+  padding: 0 !important;
+}
+
+.card-container .column {
+  width: 100%; /* 考虑间距 */
+  box-sizing: border-box;
+}
